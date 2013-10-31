@@ -1,0 +1,18 @@
+ExpiresActive On
+
+ErrorDocument 404 http://tzmanics.com/error_404.html
+
+ExpiresByType text/css A86400
+ExpiresByType text/javascript A86400
+ExpiresByType image/jpeg A86400
+ExpiresByType image/gif A86400
+ExpiresByType image/png A86400
+
+AddOutputFilterByType DEFLATE text/xhtml
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+
+AddHandler x-httpd-php .html .htm .cgi .php
+
+

@@ -1,0 +1,17 @@
+body, h1{
+font-family:'Megrim', cursive, helvetica, arial, sans-serif;
+text-align: center;
+font-size:22px;
+}
+
+h1{
+	margin-top:22%;
+}
+
+a:link{color:#000000;} 
+a:hover{color:#0000FF;}
+a:visited{color:#700000 ;}
+
+a{
+	text-decoration: none;
+}
