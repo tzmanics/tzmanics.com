@@ -8,7 +8,7 @@ margin:0;
 font-family:'Megrim', helvetica, arial, sans-serif;
 text-align: center;
 font-size:1em;
-color: #700000;
+color: black;
 }
 
 .fullscreen-img {
@@ -26,12 +26,16 @@ color: #700000;
     margin-bottom:2px;
 }
 
+.info {
+    background-color: rgba(255, 255, 255, .5);
+}
+
 h1{
 	margin-top:22%;
 }
-a:link{color:#999999;}
-a:hover{color:black;}
-a:visited{color:#333333;}
+a:link{color:black;}
+a:hover{color:#330000; font-size: 1.1em;}
+a:visited{color:#330000;}
 
 a{
 	text-decoration: none;
