@@ -21,6 +21,10 @@ line-height: .75em;
     margin-top: 22%;
 }
 
+h1{
+	line-height: 1em;
+}
+
 a:link{color:black;}
 a:hover{color:#330000; font-size: 1.1em;}
 a:visited{color:#330000;}
