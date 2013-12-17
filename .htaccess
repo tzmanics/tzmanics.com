@@ -15,4 +15,6 @@ AddOutputFilterByType DEFLATE text/javascript
 
 AddHandler x-httpd-php .html .htm .cgi .php
 
-
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
