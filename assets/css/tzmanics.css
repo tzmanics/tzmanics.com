@@ -27,7 +27,7 @@ html, body{
 }
 
 .info {
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .25);
     width: 100%;
     padding: 5px;
     margin-top: 22%;
