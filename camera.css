@@ -146,7 +146,6 @@
 	z-index: 4;
 }
 .camera_caption {
-	width: 100%;
 	opacity:0;
 	 transition: opacity 0.6s ease-in;
     -ms-transition: opacity 0.6s ease-in;
@@ -154,9 +153,10 @@
     -webkit-transition: opacity 0.6s ease-in;
 }
 .camera_caption > div {
-	padding: 30px 50px;
+	padding: 2% 8%;
 	position: absolute;
 	height: 65%;
+	width:100%;
 	top:0;
 }
 
@@ -178,13 +178,14 @@
 }
 
 .projectFacts{
-	width: 45%;
+	width: 40%;
 	float: left;
+	margin-right: 5%;
 }
 
 .projectDescription{
 	width: 40%;
-	float: right;
+	float: left;
 	text-align: right;
 }
 
@@ -429,36 +430,6 @@
 *	COLORS & SKINS
 *
 **************************/
-.pattern_1 .camera_overlayer {
-	background: url(../images/patterns/overlay1.png) repeat;
-}
-.pattern_2 .camera_overlayer {
-	background: url(../images/patterns/overlay2.png) repeat;
-}
-.pattern_3 .camera_overlayer {
-	background: url(../images/patterns/overlay3.png) repeat;
-}
-.pattern_4 .camera_overlayer {
-	background: url(../images/patterns/overlay4.png) repeat;
-}
-.pattern_5 .camera_overlayer {
-	background: url(../images/patterns/overlay5.png) repeat;
-}
-.pattern_6 .camera_overlayer {
-	background: url(../images/patterns/overlay6.png) repeat;
-}
-.pattern_7 .camera_overlayer {
-	background: url(../images/patterns/overlay7.png) repeat;
-}
-.pattern_8 .camera_overlayer {
-	background: url(../images/patterns/overlay8.png) repeat;
-}
-.pattern_9 .camera_overlayer {
-	background: url(../images/patterns/overlay9.png) repeat;
-}
-.pattern_10 .camera_overlayer {
-	background: url(../images/patterns/overlay10.png) repeat;
-}
 .camera_caption {
 	color: #fff;
 }
@@ -493,25 +464,6 @@
 .camera_thumbs_cont ul li > img {
 	border-color: 1px solid #000;
 }
-/*AMBER SKIN*/
-.camera_amber_skin .camera_prevThumbs div {
-	background-position: -160px -160px;
-}
-.camera_amber_skin .camera_nextThumbs div {
-	background-position: -190px -160px;
-}
-.camera_amber_skin .camera_prev > span {
-	background-position: 0 -160px;
-}
-.camera_amber_skin .camera_next > span {
-	background-position: -40px -160px;
-}
-.camera_amber_skin .camera_commands > .camera_play {
-	background-position: -80px -160px;
-}
-.camera_amber_skin .camera_commands > .camera_stop {
-	background-position: -120px -160px;
-}
 /*ASH SKIN*/
 .camera_ash_skin .camera_prevThumbs div {
 	background-position: -160px -200px;
@@ -530,25 +482,6 @@
 }
 .camera_ash_skin .camera_commands > .camera_stop {
 	background-position: -120px -200px;
-}
-/*AZURE SKIN*/
-.camera_azure_skin .camera_prevThumbs div {
-	background-position: -160px -240px;
-}
-.camera_azure_skin .camera_nextThumbs div {
-	background-position: -190px -240px;
-}
-.camera_azure_skin .camera_prev > span {
-	background-position: 0 -240px;
-}
-.camera_azure_skin .camera_next > span {
-	background-position: -40px -240px;
-}
-.camera_azure_skin .camera_commands > .camera_play {
-	background-position: -80px -240px;
-}
-.camera_azure_skin .camera_commands > .camera_stop {
-	background-position: -120px -240px;
 }
 /*BEIGE SKIN*/
 .camera_beige_skin .camera_prevThumbs div {
@@ -588,63 +521,6 @@
 .camera_black_skin .camera_commands > .camera_stop {
 	background-position: -120px -40px;
 }
-/*BLUE SKIN*/
-.camera_blue_skin .camera_prevThumbs div {
-	background-position: -160px -280px;
-}
-.camera_blue_skin .camera_nextThumbs div {
-	background-position: -190px -280px;
-}
-.camera_blue_skin .camera_prev > span {
-	background-position: 0 -280px;
-}
-.camera_blue_skin .camera_next > span {
-	background-position: -40px -280px;
-}
-.camera_blue_skin .camera_commands > .camera_play {
-	background-position: -80px -280px;
-}
-.camera_blue_skin .camera_commands > .camera_stop {
-	background-position: -120px -280px;
-}
-/*BROWN SKIN*/
-.camera_brown_skin .camera_prevThumbs div {
-	background-position: -160px -320px;
-}
-.camera_brown_skin .camera_nextThumbs div {
-	background-position: -190px -320px;
-}
-.camera_brown_skin .camera_prev > span {
-	background-position: 0 -320px;
-}
-.camera_brown_skin .camera_next > span {
-	background-position: -40px -320px;
-}
-.camera_brown_skin .camera_commands > .camera_play {
-	background-position: -80px -320px;
-}
-.camera_brown_skin .camera_commands > .camera_stop {
-	background-position: -120px -320px;
-}
-/*BURGUNDY SKIN*/
-.camera_burgundy_skin .camera_prevThumbs div {
-	background-position: -160px -360px;
-}
-.camera_burgundy_skin .camera_nextThumbs div {
-	background-position: -190px -360px;
-}
-.camera_burgundy_skin .camera_prev > span {
-	background-position: 0 -360px;
-}
-.camera_burgundy_skin .camera_next > span {
-	background-position: -40px -360px;
-}
-.camera_burgundy_skin .camera_commands > .camera_play {
-	background-position: -80px -360px;
-}
-.camera_burgundy_skin .camera_commands > .camera_stop {
-	background-position: -120px -360px;
-}
 /*CHARCOAL SKIN*/
 .camera_charcoal_skin .camera_prevThumbs div {
 	background-position: -160px -400px;
@@ -663,82 +539,6 @@
 }
 .camera_charcoal_skin .camera_commands > .camera_stop {
 	background-position: -120px -400px;
-}
-/*CHOCOLATE SKIN*/
-.camera_chocolate_skin .camera_prevThumbs div {
-	background-position: -160px -440px;
-}
-.camera_chocolate_skin .camera_nextThumbs div {
-	background-position: -190px -440px;
-}
-.camera_chocolate_skin .camera_prev > span {
-	background-position: 0 -440px;
-}
-.camera_chocolate_skin .camera_next > span {
-	background-position: -40px -440px;
-}
-.camera_chocolate_skin .camera_commands > .camera_play {
-	background-position: -80px -440px;
-}
-.camera_chocolate_skin .camera_commands > .camera_stop {
-	background-position: -120px -440px	;
-}
-/*COFFEE SKIN*/
-.camera_coffee_skin .camera_prevThumbs div {
-	background-position: -160px -480px;
-}
-.camera_coffee_skin .camera_nextThumbs div {
-	background-position: -190px -480px;
-}
-.camera_coffee_skin .camera_prev > span {
-	background-position: 0 -480px;
-}
-.camera_coffee_skin .camera_next > span {
-	background-position: -40px -480px;
-}
-.camera_coffee_skin .camera_commands > .camera_play {
-	background-position: -80px -480px;
-}
-.camera_coffee_skin .camera_commands > .camera_stop {
-	background-position: -120px -480px	;
-}
-/*CYAN SKIN*/
-.camera_cyan_skin .camera_prevThumbs div {
-	background-position: -160px -520px;
-}
-.camera_cyan_skin .camera_nextThumbs div {
-	background-position: -190px -520px;
-}
-.camera_cyan_skin .camera_prev > span {
-	background-position: 0 -520px;
-}
-.camera_cyan_skin .camera_next > span {
-	background-position: -40px -520px;
-}
-.camera_cyan_skin .camera_commands > .camera_play {
-	background-position: -80px -520px;
-}
-.camera_cyan_skin .camera_commands > .camera_stop {
-	background-position: -120px -520px	;
-}
-/*FUCHSIA SKIN*/
-.camera_fuchsia_skin .camera_prevThumbs div {
-	background-position: -160px -560px;
-}
-.camera_fuchsia_skin .camera_nextThumbs div {
-	background-position: -190px -560px;
-}
-.camera_fuchsia_skin .camera_prev > span {
-	background-position: 0 -560px;
-}
-.camera_fuchsia_skin .camera_next > span {
-	background-position: -40px -560px;
-}
-.camera_fuchsia_skin .camera_commands > .camera_play {
-	background-position: -80px -560px;
-}
-.camera_fuchsia_skin .camera_commands > .camera_stop {
-	background-position: -120px -560px	;
 }
 /*GOLD SKIN*/
 .camera_gold_skin .camera_prevThumbs div {
@@ -778,82 +578,6 @@
 }
 .camera_grey_skin .camera_commands > .camera_stop {
 	background-position: -120px -680px	;
-}
-/*PISTACHIO SKIN*/
-.camera_pistachio_skin .camera_prevThumbs div {
-	background-position: -160px -1040px;
-}
-.camera_pistachio_skin .camera_nextThumbs div {
-	background-position: -190px -1040px;
-}
-.camera_pistachio_skin .camera_prev > span {
-	background-position: 0 -1040px;
-}
-.camera_pistachio_skin .camera_next > span {
-	background-position: -40px -1040px;
-}
-.camera_pistachio_skin .camera_commands > .camera_play {
-	background-position: -80px -1040px;
-}
-.camera_pistachio_skin .camera_commands > .camera_stop {
-	background-position: -120px -1040px	;
-}
-/*PINK SKIN*/
-.camera_pink_skin .camera_prevThumbs div {
-	background-position: -160px -80px;
-}
-.camera_pink_skin .camera_nextThumbs div {
-	background-position: -190px -80px;
-}
-.camera_pink_skin .camera_prev > span {
-	background-position: 0 -80px;
-}
-.camera_pink_skin .camera_next > span {
-	background-position: -40px -80px;
-}
-.camera_pink_skin .camera_commands > .camera_play {
-	background-position: -80px -80px;
-}
-.camera_pink_skin .camera_commands > .camera_stop {
-	background-position: -120px -80px;
-}
-/*RED SKIN*/
-.camera_red_skin .camera_prevThumbs div {
-	background-position: -160px -1000px;
-}
-.camera_red_skin .camera_nextThumbs div {
-	background-position: -190px -1000px;
-}
-.camera_red_skin .camera_prev > span {
-	background-position: 0 -1000px;
-}
-.camera_red_skin .camera_next > span {
-	background-position: -40px -1000px;
-}
-.camera_red_skin .camera_commands > .camera_play {
-	background-position: -80px -1000px;
-}
-.camera_red_skin .camera_commands > .camera_stop {
-	background-position: -120px -1000px	;
-}
-/*TANGERINE SKIN*/
-.camera_tangerine_skin .camera_prevThumbs div {
-	background-position: -160px -1120px;
-}
-.camera_tangerine_skin .camera_nextThumbs div {
-	background-position: -190px -1120px;
-}
-.camera_tangerine_skin .camera_prev > span {
-	background-position: 0 -1120px;
-}
-.camera_tangerine_skin .camera_next > span {
-	background-position: -40px -1120px;
-}
-.camera_tangerine_skin .camera_commands > .camera_play {
-	background-position: -80px -1120px;
-}
-.camera_tangerine_skin .camera_commands > .camera_stop {
-	background-position: -120px -1120px	;
 }
 /*WHITE SKIN*/
 .camera_white_skin .camera_prevThumbs div {
