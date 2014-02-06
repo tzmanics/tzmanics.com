@@ -7,43 +7,45 @@
   <meta name="description" content="Personal Work from Tara Z. Manicsic | Web, Mobile, Design and Art" />
   <link rel="shortcut icon" id="favicon" href="favicon.png"> 
   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500|Raleway:100,300' rel='stylesheet' type='text/css'>
-  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
-  <link href='reset.css' rel='stylesheet' type='text/css'>
-  <link href='camera.css' rel='stylesheet' type='text/css'>
-  <link href='style.css' rel='stylesheet' type='text/css'>
+  <link href='assets/css/reset.css' rel='stylesheet' type='text/css'>
+  <link href='assets/css/camera.css' rel='stylesheet' type='text/css'>
+  <link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+  <script type="text/javascript" src="assets/js/jquery.mobile.customized.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script type='text/javascript' src="assets/js/camera.js"></script>
   <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
 </head>
 <body>
-
   <nav>
     <ul>
-      <li id="nameTab">TARA ZVEZDA MANICSIC</li>
-      <li id="webTab">WEB</li>
-      <li id="mobileTab">MOBILE</li>
-      <li id="designTab">DESIGN</li>
-      <li id="artTab">ART</li>
+      <li id="info"><a href="">TARA ZVEZDA MANICSIC</a></li>
+      <li id="web"><a href="">WEB</a></li>
+      <li id="mobile"><a href="">MOBILE</a></li>
+      <li id="design"><a href="">DESIGN</a></li>
+      <li id="art"><a href="">ART</a></li>
     </ul>
   </nav>
   <div class="wrapper">
     <div class="main">
-      <section class="page1">
-        <div class="page_container">
-          <h1>INFORMATION</h1>
-          <h3><a href="http://tzmanics.com/resume">RESUME</a></h3>
-          <h2><a href="mailto:tzmanics@gmail.com">EMAIL</a></h2>
-          <h4><a href="tel:5133075955">513.307.5955</a></h4>
-          <a href="https://github.com/tzmanics"><img src="img/gitty.png"/></a>
-          <p>I thoroughly enjoy learning and making.</p>
-          <p>Here are a few of my projects.</p>
-          <p>Feel free to contact me.</p>
-        </div>
-      </section>
-      <section class="page2">
-        <div class="page_container">
-          <h1>WEB</h1>
-          <div class="fluid_container">
-            <div class="camera_wrap camera_white_skin" id="camera_wrap_2">
-              <div data-src="img/BA_Sreenshot01.png">
+    <section id="infoSection">
+      <div class="page_container">
+        <h1>INFORMATION</h1>
+        <h3><a href="http://tzmanics.com/resume">RESUME</a></h3>
+        <h2><a href="mailto:tzmanics@gmail.com">EMAIL</a></h2>
+        <h4><a href="tel:5133075955">513.307.5955</a></h4>
+        <a href="https://github.com/tzmanics"><img src="assets/images/gitty.png"/></a>
+        <p>I thoroughly enjoy learning and making.</p>
+        <p>Here are a few of my projects.</p>
+        <p>Feel free to contact me.</p>
+      </div>
+    </section>
+    <section id="webSection">
+      <div class="page_container">
+        <h1>WEB</h1>
+        <div class="fluid_container">
+          <div class="camera_wrap camera_white_skin" id="camera_wrap_2">
+            <div data-src="assets/images/BA_Sreenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Client Work: Baby Alpaca</p>
@@ -52,9 +54,9 @@
                 <div class="projectDescription">
                   <p>I created a clean and simple Wordpress theme that showcases the band's current music video as the background of the site. It also uses an AJAX plugin to load the page content into a div instead of reloading the page. <a href="http://babyalpa.ca">VISIT SITE</a></p>
                 </div>
-              </div>
-              </div>
-              <div data-src="img/SB_Sreenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/SB_Sreenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Schoolwork: Dynamic Web Applications</p>
@@ -63,9 +65,9 @@
                 <div class="projectDescription">
                   <p>SOCI Blog is a social blogging platform I designed and created using an MVC PHP framework. Users can sign in and create multi-image + caption posts. They can also follow other users and display their posts on their own blog page. <a href="http://p4.nunyuh.biz">VISIT SITE</a></p>
                 </div>
-                </div>
-              </div>
-              <div data-src="img/HD_Sreenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/HD_Sreenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Schoolwork: Dynamic Web Applications</p>
@@ -74,9 +76,9 @@
                 <div class="projectDescription">
                   <p>HTML DOC.er allows users to simply insert content into text fields and see how it populates into an HTML document. Users can then copy the information from the site and use the HTML document they created. <a href="http://p3.nunyuh.biz">VISIT SITE</a></p>
                 </div>
-              </div>
-              </div>
-             <div data-src="img/GH_Sreenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/GH_Sreenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Schoolwork: Visualization</p>
@@ -85,19 +87,19 @@
                 <div class="projectDescription">
                   <p>The GitHub Repo Visualizer was created in a partnership with Alphan Gunaydin. We used D3 libraries to create visualizations of the users and content of 5 GitHub repositories. My tasks were creating the Commit Day & Time visualization, designing the logo, write-ups, and collaborating on the design, UI/UX and layout.<a href="https://googledrive.com/host/0B1DqUTRyZNJocFZqNnpfdEpSbVU/index.html">VISIT SITE</a></p>
                 </div>
-              </div>
-              </div>
-            </div><!-- #camera_wrap_2 -->
-          </div><!-- .fluid_container -->
-        </div>
-      </section>
-      
-      <section class="page3">
-        <div class="page_container">
-          <h1>MOBILE</h1>
-          <div class="fluid_container">
-            <div class="camera_wrap camera_white_skin" id="camera_wrap_3">
-              <div data-src="img/LR_Sreenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+          </div><!-- #camera_wrap_2 -->
+        </div><!-- .fluid_container -->
+      </div><!-- .page_container -->
+    </section>
+
+    <section id="mobileSection">
+      <div class="page_container">
+        <h1>MOBILE</h1>
+        <div class="fluid_container">
+          <div class="camera_wrap camera_white_skin" id="camera_wrap_3">
+            <div data-src="assets/images/LR_Sreenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Schoolwork: Modern Mobile Development</p>
@@ -106,9 +108,9 @@
                 <div class="projectDescription">
                   <p>Lovely Rita is a Windows Phone application that helps users remember where they parked and guides them back to their parking space. It is a clean, simple 3-page application with 4 different map display options.</p>
                 </div>
-              </div>
-              </div>
-              <div data-src="img/TS_Screenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/TS_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Schoolwork: Modern Mobile Development</p>
@@ -117,19 +119,19 @@
                 <div class="projectDescription">
                   <p>The Spins is a fun game where you flip your paddle to catch corresponding, falling shapes. My dog, Toshi, even has a cameo...as a villain who knocks 20 points off your score. This game was featured in the Windows Phone Store Spotlight section. <a href="http://www.windowsphone.com/en-us/store/app/the-spins/8260570f-ec5c-4827-986e-dcbca8efceeb">MORE INFO</a></p>
                 </div>
-              </div>
-              </div>
-            </div><!-- #camera_wrap_3 -->
-          </div><!-- .fluid_container -->
-        </div>
-      </section>
+              </div><!-- .camera_caption -->
+            </div>
+          </div><!-- #camera_wrap_3 -->
+        </div><!-- .fluid_container -->
+      </div>
+    </section>
 
-      <section class="page4">
-        <div class="page_container">
-          <h1>DESIGN</h1>
-          <div class="fluid_container">
-            <div class="camera_wrap camera_white_skin" id="camera_wrap_4">
-              <div data-src="img/MF_Screenshot01.png">
+    <section id="designSection">
+      <div class="page_container">
+        <h1>DESIGN</h1>
+        <div class="fluid_container">
+          <div class="camera_wrap camera_white_skin" id="camera_wrap_4">
+            <div data-src="assets/images/MF_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: MANICS Font Type</p>
@@ -139,8 +141,8 @@
                   <p>I created MANICS Font manipulating a few simple shapes in Illustrator. Using a blade and a 2/2 hand skew gouge, I carved the type into baltic birch plywood and cut out the type blocks. I then printed the blocks with a rainbow roller at Bow & Arrow Press.</p>
                 </div>
               </div>
-              </div>
-              <div data-src="img/AT_Screenshot01.png">
+            </div>
+            <div data-src="assets/images/AT_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: Adjustable Cigar Ashtray</p>
@@ -150,8 +152,8 @@
                   <p>This was created for my father who hand carves beautiful ashtrays in his free time. I wanted a design that never let the cigar tip over onto it's foot into the ash, as I've seen so often with other ashtrays. The ash collector is stable while the 'headrest' slides up and down the wooden dowel to match the cigar's length.</p>
                 </div>
               </div>
-              </div>
-              <div data-src="img/AF_Screenshot01.png">
+            </div>
+            <div data-src="assets/images/AF_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: Alpaca Font Type</p>
@@ -161,8 +163,8 @@
                   <p>With simplicity in mind, I created Alpaca font using only three shapes.</p>
                 </div>
               </div>
-              </div>
-              <div data-src="img/SP_Screenshot01.png">
+            </div>
+            <div data-src="assets/images/SP_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: Wooden Spoon</p>
@@ -172,8 +174,8 @@
                   <p>From a small log I made a large spoon. Although it has the basic shape of the design I had in mind, a new form and curve came from the natural shaping of the wood.</p>
                 </div>
               </div>
-              </div>
-              <div data-src="img/BC_Screenshot01.png">
+            </div>
+            <div data-src="assets/images/BC_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: Business Cards</p>
@@ -182,62 +184,62 @@
                 <div class="projectDescription">
                   <p>These business cards were designed in illustrator using the same measurements as standard business cards. I then laser cut them on different types of thin stock wood and museum board.</p>
                 </div>
-              </div>
-              </div>
-            </div><!-- #camera_wrap_4 -->
-          </div><!-- .fluid_container -->
-        </div>
-      </section>
-      <section class="page5">
-        <div class="page_container">
-          <h1>ART</h1>
-          <div class="fluid_container">
-            <div class="camera_wrap camera_white_skin" id="camera_wrap_5">
-            <div data-src="img/P-PL_Screenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+          </div><!-- #camera_wrap_4 -->
+        </div><!-- .fluid_container -->
+      </div><!-- .page_container -->
+    </section>
+    <section id="artSection">
+      <div class="page_container">
+        <h1>ART</h1>
+        <div class="fluid_container">
+          <div class="camera_wrap camera_white_skin" id="camera_wrap_5">
+            <div data-src="assets/images/P-PL_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: Pictures_People</p>
                   <p>Tools: Multiple Cameras</p>
                 </div>
                 <div class="projectDescription">
-                  <p>From a collection of photographs I've taken of people.</a></p>
+                  <p>As a pasttime I enjoy documenting the people that surround me in my life. These are from a collection of photographs I've taken of them.</p>
                 </div>
-              </div>
-              </div>
-              <div data-src="img/P-PC_Screenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/P-PC_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
-                  <p>Personal Project: Pictures_Places</p>
-                  <p>Tools: Multiple Cameras</p>
-                </div>
-                <div class="projectDescription">
-                  <p>From a collection of photographs I've taken of places.</a></p>
-                </div>
-              </div>
-              </div>
-              <div data-src="img/P-TH_Screenshot01.png">
+                    <p>Personal Project: Pictures_Places</p>
+                    <p>Tools: Multiple Cameras</p>
+                  </div>
+                  <div class="projectDescription">
+                    <p>Ever so often I like to capture images of my surroundings. These are from a collection of photographs I've taken of places.</p>
+                  </div>
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/P-TH_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: Pictures_Things</p>
                   <p>Tools: Multiple Cameras</p>
                 </div>
                 <div class="projectDescription">
-                  <p>From a collection of photographs I've taken of things.</a></p>
+                  <p>Beyond people and places, I also like to capture my view of things. These are from a collection of photographs I've taken of things.</p>
                 </div>
-              </div>
-              </div>
-              <div data-src="img/CL_Screenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/CL_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Personal Project: Landscape Book Covers</p>
                   <p>Tools: Photoshop</p>
                 </div>
                 <div class="projectDescription">
-                  <p>From a collection of collages created from landscapes, textiles and groups of people.</a></p>
+                  <p>From a collection of collages created from landscapes, textiles and groups of people.</p>
                 </div>
-              </div>
-              </div>
-             <div data-src="img/DS_Screenshot01.png">
+              </div><!-- .camera_caption -->
+            </div>
+            <div data-src="assets/images/DS_Screenshot01.png">
               <div class="camera_caption">
                 <div class="projectFacts">
                   <p>Schoolwork: Multimedia Communication: Digital Storytelling</p>
@@ -246,19 +248,16 @@
                 <div class="projectDescription">
                   <p>DISMEMBERED is a photo essay about the stories that take place outside the frame of a picture. I realized I had taken many pictures that cut-off the subject of the image. I used the film to explore the tension and curiosity this caused the viewer.<a href="http://www.youtube.com/watch?v=1xifqlxksZM">VIEW VIDEO</a></p>
                 </div>
-              </div>
-              </div>
-            </div><!-- #camera_wrap_5 -->
-          </div><!-- .fluid_container -->
-        </div><!-- page5 -->
-      </section>
+              </div><!-- .camera_caption -->
+            </div>
+          </div><!-- #camera_wrap_5 -->
+        </div><!-- .fluid_container -->
+      </div><!-- .page_container -->
+    </section>
+
 
     </div>
   </div>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
-  <script type='text/javascript' src='scripts/camera.js'></script>
-  <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
