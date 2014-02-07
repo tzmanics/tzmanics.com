@@ -10,27 +10,27 @@ $(document).ready(function(){
 	});
 	$('#camera_wrap_5').camera({
 	});
-	$('#info').on('click',function(){
-		event.preventDefault();
+	$('#info').on('click',function(evt){
+		evt.preventDefault();
 		$('html').animate({ scrollTop: 0 }, 1500);
 	});
-	$('#web').on('click',function(){
-		event.preventDefault();
+	$('#web').on('click',function(evt){
+		evt.preventDefault();
 		$("html, body").animate({
 			scrollTop:$("#webSection").offset().top}, 1500);
 	})
-	$('#mobile').on('click',function(){
-		event.preventDefault();
+	$('#mobile').on('click',function(evt){
+		evt.preventDefault();
 		$("html, body").animate({
 			scrollTop:$("#mobileSection").offset().top}, 1500);
 	})
-	$('#design').on('click',function(){
-		event.preventDefault();
+	$('#design').on('click',function(evt){
+		evt.preventDefault();
 		$("html, body").animate({
 			scrollTop:$("#designSection").offset().top}, 1500);
 	})
-	$('#art').on('click',function(){
-		event.preventDefault();
+	$('#art').on('click',function(evt){
+		evt.preventDefault();
 		$("html, body").animate({
 			scrollTop:$("#artSection").offset().top}, 1500);
 	})
