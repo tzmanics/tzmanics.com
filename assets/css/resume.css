@@ -42,9 +42,24 @@ ul{
         list-style: none;
 }
 
+li{ float: left;}
+
 ul li:before { content: "\00BB"; }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+    color: rgb(0, 128, 128);
+}
+
+a:visited{
+    color: rgb(0, 128, 128);
+
+}
+a:hover{
+    color: rgb(122, 128, 128);
+
+}
+
 
 #experience p{margin: 0;}
 
@@ -62,5 +77,7 @@ a {text-decoration: none;}
 @media print{
 
     body{width: 80%;}
-    #work {page-break-before: always;}
+    h3{font-size:20px;}
+    p{font-size: 15px;}
+
 }
