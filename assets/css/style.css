@@ -66,7 +66,7 @@ height: 100%;
 }
 
 nav ul li{
-height: 18.8%;
+height: 24%;
 min-height: 45px;
 font-size: 40px;
 padding: 20px 5px 0 5px;
@@ -102,7 +102,7 @@ z-index: 3;
 #info{
 font-size: 31px;
 padding: 5px;
-height: 118px;
+height: 22%;
 }
 
 @media (max-width: 640px) {
@@ -114,7 +114,7 @@ height: 118px;
   }
 
   nav ul li{
-    width:23.65%;
+    width:32.2%;
     height:20px;
     float: left;
     font-size: 15px;
@@ -122,13 +122,16 @@ height: 118px;
     min-height: 20px;
     text-align: center;
   }
-
   #info{
   width:100%;
   font-size: 22px;
   padding: 5px;
   height: 30px;
   text-align: center;
+  }
+
+  nav ul li a:hover{
+    cursor: pointer;
   }
 
   a{
